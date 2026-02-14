@@ -7,7 +7,7 @@ namespace Raylib_cs;
 /// Color type, RGBA (32bit)
 /// </summary>
 [StructLayout(LayoutKind.Sequential)]
-public struct Color
+public record struct Color
 {
     public byte R;
     public byte G;

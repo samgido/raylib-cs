@@ -7,7 +7,7 @@ namespace Raylib_cs;
 /// Rectangle type
 /// </summary>
 [StructLayout(LayoutKind.Sequential)]
-public struct Rectangle
+public record struct Rectangle
 {
     public float X;
     public float Y;
