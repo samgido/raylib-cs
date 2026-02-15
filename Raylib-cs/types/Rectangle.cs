@@ -106,9 +106,4 @@ public record struct Rectangle
         Width -= shrink * 2.0f;
         Height -= shrink * 2.0f;
     }
-
-    public readonly override string ToString()
-    {
-        return $"{{X:{X} Y:{Y} Width:{Width} Height:{Height}}}";
-    }
 }

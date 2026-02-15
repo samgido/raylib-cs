@@ -221,9 +221,4 @@ public record struct Color
     {
         return (byte)(a + (b - a) * t);
     }
-
-    public readonly override string ToString()
-    {
-        return $"{{R:{R} G:{G} B:{B} A:{A}}}";
-    }
 }
